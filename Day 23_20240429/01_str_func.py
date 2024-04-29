@@ -33,7 +33,7 @@ students = [
 ]        
 
 # 출력합니다.
-# str() 함수의 매개변수로 넣으면 student의 __str__()함수가 호출됩니다.
+# str() 함수의 매개변수로 넣으면 student의 __str__()함수가 호출
 print("이름", "총점", "평균", sep="\t" )
 for student in students:
     print(str(student))
